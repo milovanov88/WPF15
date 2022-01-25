@@ -1,0 +1,238 @@
+﻿<Window x:Class="WPF15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Left">
+                        <BlockUIContainer>
+                            <Image Source="Data/Sirius.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>ППКУП Сириус</Bold>
+                </Paragraph>
+                <Paragraph>
+                    Прибор приемно-контрольный и управления пожарный
+                    <Hyperlink NavigateUri="https://bolid.ru/production/orion/network-controllers/sirius.html">"СИРИУС"</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Italic> Имеет функционал прибора приемно-контрольного адресной пожарной сигнализации и прибора управления системой оповещения и управления эвакуацией 1-2 типа по ГОСТ Р 53325-2012. Совместно с другими приборами ИСО «Орион» может выполнять функции блочно-модульного прибора приемно-контрольного пожарной сигнализации; управления световым, звуковым, речевым оповещением; газовым, порошковым, аэрозольным, тонкораспыленным, пенным и водяным пожаротушением; противодымной защитой; инженерным, технологическим оборудованием и иными устройствами, участвующими в обеспечении пожарной безопасности
+                    </Italic>
+                </Paragraph>
+                <Paragraph>
+                    <Run Foreground="#FFB412FF"> Функциональные возможности</Run> 
+                </Paragraph>
+                <List MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            Совместимость с блоками и приборами пожарной автоматики ИСО «Орион»
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Контроль состояний адресных и неадресных (подключенных посредством адресных расширителей) пожарных извещателей
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Световая индикация и звуковая сигнализация во всех режимах работы
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Регистрация происходящих событий в электронном журнале
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Формирование дискретных сигналов «Пуск», «Пожар» и «Неисправность» на ПЧ
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Принятие сигнала о неисправности от внешних технических средств при помощи дискретного входа «Неисправность»
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Перекрестные логические связи пожарных зон приборов «Сириус» в одной сети
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Web-интерфейс для конфигурирования параметров, удаленного контроля состояния системы, просмотра журнала событий
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Прямое подключение к АРМ Орион Про по локальной сети
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Run Foreground="#FFB412FF">Технические характеристики</Run>
+                </Paragraph>
+                <Section FontSize="14">
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="2*"/>
+                        <TableColumn Width="*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Максимальная информационная ёмкость одного прибора «Сириус»:
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    приборы (встроенные и внешние)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    128
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    входы (контролируемые элементы)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                   4096
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    выходы (управляемые элементы)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1024
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    зоны (для объединения элементов)
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1024
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    пользователи
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2048
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    группы доступа
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    256
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Встроенные линии связи для подключения адресных устройств:
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    интерфейс
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    ДПЛС
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    тип
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    кольцевая
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    количество линий
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 (2 для «Сириус» исп. 01)
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    максимальное число адресных устройств
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    127 (254 для «Сириус» исп. 01)
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                </Section>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <Button Content="Возврат в главное меню" BorderBrush="#FF5D75B4"/>
+                        
+                    </StackPanel>
+                </BlockUIContainer>
+
+
+
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
